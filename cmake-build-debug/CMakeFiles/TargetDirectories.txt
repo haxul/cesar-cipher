@@ -1,0 +1,3 @@
+/home/haxul/CLionProjects/programm/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/haxul/CLionProjects/programm/cmake-build-debug/CMakeFiles/programm.dir
+/home/haxul/CLionProjects/programm/cmake-build-debug/CMakeFiles/edit_cache.dir
