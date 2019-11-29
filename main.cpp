@@ -2,12 +2,11 @@
 
 using namespace std;
 int main() {
-    unsigned short hel = 5;
-    char a = 'a';
-    int c = INT32_MAX;
-    int b {};
-    auto h = 0;
-    cout << (int) 8.0 / 3 << endl << sizeof(h);
+    string hello;
+    int a = 4234;
+    int b = 5222;
+    int result = a & b;
+    cout << result;
 
     return 0;
 }
