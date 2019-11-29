@@ -1,12 +1,14 @@
 #include <iostream>
-
+#include "test.h"
 using namespace std;
-int main() {
-    string hello;
-    int a = 4234;
-    int b = 5222;
-    int result = a & b;
-    cout << result;
 
+
+int main() {
+    int a = getValue();
+    cout << a;
     return 0;
+}
+
+int getValue() {
+    return  2;
 }
