@@ -1,14 +1,23 @@
 #include <iostream>
 #include "test.h"
+
 using namespace std;
+double python(int);
+double java(int);
 
-
+int estimate(int lines, double pfunc(int)) {
+    return lines * pfunc(lines);
+}
 int main() {
-    int a = getValue();
-    cout << a;
+    double result = estimate(5, python);
+    cout << result;
     return 0;
 }
 
-int getValue() {
-    return  2;
+double python(int h) {
+    return h * 10;
+}
+
+double java(int h) {
+    return h * 11;
 }
