@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cstring>
 #include "test.h"
 
 using namespace std;
@@ -36,7 +37,11 @@ int main() {
     *arr = &a;
     *(arr + 1) = &b;
     *(arr + 2 ) = &x;
-
+    int c = 100;
+    int* u = &c;
+    *u = 250;
+    char h[20] = "hello world";
+    cout << strlen(h);
 //    for (int i = 0; i < 3 ; ++i) {
 //        cout << arr[i] << endl;
 //    }
