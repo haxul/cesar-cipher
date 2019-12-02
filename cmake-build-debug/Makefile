@@ -123,6 +123,33 @@ untitled/fast:
 	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/build
 .PHONY : untitled/fast
 
+Cat.o: Cat.cpp.o
+
+.PHONY : Cat.o
+
+# target to build an object file
+Cat.cpp.o:
+	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/Cat.cpp.o
+.PHONY : Cat.cpp.o
+
+Cat.i: Cat.cpp.i
+
+.PHONY : Cat.i
+
+# target to preprocess a source file
+Cat.cpp.i:
+	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/Cat.cpp.i
+.PHONY : Cat.cpp.i
+
+Cat.s: Cat.cpp.s
+
+.PHONY : Cat.s
+
+# target to generate assembly for a file
+Cat.cpp.s:
+	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/Cat.cpp.s
+.PHONY : Cat.cpp.s
+
 Mammal.o: Mammal.cpp.o
 
 .PHONY : Mammal.o
@@ -186,6 +213,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... untitled"
 	@echo "... edit_cache"
+	@echo "... Cat.o"
+	@echo "... Cat.i"
+	@echo "... Cat.s"
 	@echo "... Mammal.o"
 	@echo "... Mammal.i"
 	@echo "... Mammal.s"

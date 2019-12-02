@@ -84,6 +84,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/haxul/CLionProjects/programm/Cat.cpp">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="/home/haxul/CLionProjects/programm/Cat.h">
+			<Option target="untitled"/>
+		</Unit>
 		<Unit filename="/home/haxul/CLionProjects/programm/Mammal.cpp">
 			<Option target="untitled"/>
 		</Unit>
