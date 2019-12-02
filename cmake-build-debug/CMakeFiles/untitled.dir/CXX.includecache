@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/anmuser/CLionProjects/untitled/Mammal.cpp
+iostream
+-
+Mammal.h
+/home/anmuser/CLionProjects/untitled/Mammal.h
+
+/home/anmuser/CLionProjects/untitled/Mammal.h
+sys/types.h
+-
+
+/home/anmuser/CLionProjects/untitled/main.cpp
+iostream
+-
+Mammal.h
+/home/anmuser/CLionProjects/untitled/Mammal.h
+
