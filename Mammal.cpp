@@ -1,6 +1,6 @@
 
 #include <iostream>
-#include "Mammal.h"
+#include "Mammal.hpp"
 using namespace std;
 
 Mammal::Mammal() {
@@ -13,6 +13,10 @@ Mammal::Mammal(uint pow) {
 
 Mammal::Mammal(const Mammal& other) {
     this->pows = other.pows;
+}
+
+Mammal::~Mammal() {
+    cout << endl <<"destructor" << endl;
 }
 
 int Mammal::getPows() {

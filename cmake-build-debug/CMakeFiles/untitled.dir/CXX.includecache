@@ -9,16 +9,10 @@
 /home/anmuser/CLionProjects/untitled/Mammal.cpp
 iostream
 -
-Mammal.h
-/home/anmuser/CLionProjects/untitled/Mammal.h
+Mammal.hpp
+/home/anmuser/CLionProjects/untitled/Mammal.hpp
 
-/home/anmuser/CLionProjects/untitled/Mammal.h
+/home/anmuser/CLionProjects/untitled/Mammal.hpp
 sys/types.h
 -
-
-/home/anmuser/CLionProjects/untitled/main.cpp
-iostream
--
-Mammal.h
-/home/anmuser/CLionProjects/untitled/Mammal.h
 
