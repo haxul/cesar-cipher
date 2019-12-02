@@ -6,13 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/home/anmuser/CLionProjects/untitled/Mammal.cpp
+/home/haxul/CLionProjects/programm/Mammal.hpp
+sys/types.h
+-
+
+/home/haxul/CLionProjects/programm/main.cpp
 iostream
 -
 Mammal.hpp
-/home/anmuser/CLionProjects/untitled/Mammal.hpp
-
-/home/anmuser/CLionProjects/untitled/Mammal.hpp
-sys/types.h
--
+/home/haxul/CLionProjects/programm/Mammal.hpp
 

@@ -2,6 +2,7 @@
 #include "Mammal.hpp"
 
 using namespace std;
+
 int main() {
     Mammal mammal(5);
     Mammal mammal1 = mammal;

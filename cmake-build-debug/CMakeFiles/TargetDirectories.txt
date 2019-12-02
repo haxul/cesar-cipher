@@ -1,3 +1,3 @@
-/home/anmuser/CLionProjects/untitled/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/anmuser/CLionProjects/untitled/cmake-build-debug/CMakeFiles/untitled.dir
-/home/anmuser/CLionProjects/untitled/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/haxul/CLionProjects/programm/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/haxul/CLionProjects/programm/cmake-build-debug/CMakeFiles/untitled.dir
+/home/haxul/CLionProjects/programm/cmake-build-debug/CMakeFiles/edit_cache.dir
