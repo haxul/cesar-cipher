@@ -4,7 +4,7 @@
 using namespace std;
 
 Mammal::Mammal() {
-    cout << "hello mammal";
+
 }
 
 Mammal::Mammal(uint pow) {
@@ -21,4 +21,12 @@ Mammal::~Mammal() {
 
 int Mammal::getPows() {
     return this->pows;
+}
+
+void Mammal::feed_milk() {
+    cout << "i like milk";
+}
+
+void Mammal::say() {
+    cout << "mammal says" << endl;
 }

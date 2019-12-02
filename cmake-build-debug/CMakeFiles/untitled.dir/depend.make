@@ -3,6 +3,7 @@
 
 CMakeFiles/untitled.dir/Cat.cpp.o: ../Cat.cpp
 CMakeFiles/untitled.dir/Cat.cpp.o: ../Cat.h
+CMakeFiles/untitled.dir/Cat.cpp.o: ../Mammal.hpp
 
 CMakeFiles/untitled.dir/Mammal.cpp.o: ../Mammal.cpp
 CMakeFiles/untitled.dir/Mammal.cpp.o: ../Mammal.hpp

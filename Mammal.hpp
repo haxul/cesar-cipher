@@ -8,11 +8,13 @@ public:
     Mammal();
     Mammal(uint pow);
     Mammal(const Mammal &other);
-    ~Mammal();
+    virtual ~Mammal();
     void feed_milk();
+    virtual void say();
+protected:
     int getPows();
-private:
     uint pows = 4;
+
 };
 
 

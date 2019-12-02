@@ -6,15 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/haxul/CLionProjects/programm/Cat.cpp
-Cat.h
-/home/haxul/CLionProjects/programm/Cat.h
-iostream
--
-
 /home/haxul/CLionProjects/programm/Cat.h
 sys/types.h
 -
+Mammal.hpp
+/home/haxul/CLionProjects/programm/Mammal.hpp
 
 /home/haxul/CLionProjects/programm/Mammal.hpp
 sys/types.h
@@ -23,8 +19,6 @@ sys/types.h
 /home/haxul/CLionProjects/programm/main.cpp
 iostream
 -
-Mammal.hpp
-/home/haxul/CLionProjects/programm/Mammal.hpp
 Cat.h
 /home/haxul/CLionProjects/programm/Cat.h
 
