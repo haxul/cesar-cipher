@@ -23,7 +23,7 @@ int Mammal::getPows() {
     return this->pows;
 }
 
-void Mammal::feed_milk() {
+void Mammal::feed_milk() const {
     cout << "i like milk";
 }
 

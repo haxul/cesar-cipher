@@ -9,8 +9,9 @@ public:
     Mammal(uint pow);
     Mammal(const Mammal &other);
     virtual ~Mammal();
-    void feed_milk();
+    void feed_milk() const;
     virtual void say();
+    static int data;
 protected:
     int getPows();
     uint pows = 4;
