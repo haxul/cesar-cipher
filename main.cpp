@@ -25,5 +25,7 @@ int main() {
 //    }
     foo(mammal1);
     foo(mammal2);
+    delete mammal1;
+    delete mammal2;
     return 0;
 }
