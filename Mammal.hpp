@@ -7,7 +7,7 @@ class Mammal {
 public:
     Mammal();
     Mammal(uint pow);
-    Mammal(const Mammal &other);
+    Mammal(const Mammal& other);
     virtual ~Mammal();
     void feed_milk() const;
     virtual void say();

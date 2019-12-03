@@ -1,5 +1,6 @@
 #include <iostream>
 #include "Cat.h"
+#include "Number.h"
 using namespace std;
 typedef unsigned int uint;
 
@@ -20,14 +21,20 @@ public:
     }
 };
 
+class C {
+private:
+    int a = 10;
+    int getA() {
+        return a;
+    }
+    friend B;
+};
+
 int main() {
-    B b;
-    b.foo();
-    cout << Mammal::data << endl;
-    cout << Mammal::sumo << endl;
-    Mammal* mammal = new Cat();
-    Cat* anotherCat = dynamic_cast<Cat*>(mammal);
-    anotherCat->say();
-    anotherCat->feed_milk();
+    Number number1 = Number(3);
+    cout << number1 << endl;
+    Number* number = new Number(10);
+    cout << *number << endl;
+    delete number;
     return 0;
 }

@@ -8,7 +8,11 @@ CMakeFiles/untitled.dir/Cat.cpp.o: ../Mammal.hpp
 CMakeFiles/untitled.dir/Mammal.cpp.o: ../Mammal.cpp
 CMakeFiles/untitled.dir/Mammal.cpp.o: ../Mammal.hpp
 
+CMakeFiles/untitled.dir/Number.cpp.o: ../Number.cpp
+CMakeFiles/untitled.dir/Number.cpp.o: ../Number.h
+
 CMakeFiles/untitled.dir/main.cpp.o: ../Cat.h
 CMakeFiles/untitled.dir/main.cpp.o: ../Mammal.hpp
+CMakeFiles/untitled.dir/main.cpp.o: ../Number.h
 CMakeFiles/untitled.dir/main.cpp.o: ../main.cpp
 

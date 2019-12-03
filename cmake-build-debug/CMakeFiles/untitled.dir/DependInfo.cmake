@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/haxul/CLionProjects/programm/Cat.cpp" "/home/haxul/CLionProjects/programm/cmake-build-debug/CMakeFiles/untitled.dir/Cat.cpp.o"
   "/home/haxul/CLionProjects/programm/Mammal.cpp" "/home/haxul/CLionProjects/programm/cmake-build-debug/CMakeFiles/untitled.dir/Mammal.cpp.o"
+  "/home/haxul/CLionProjects/programm/Number.cpp" "/home/haxul/CLionProjects/programm/cmake-build-debug/CMakeFiles/untitled.dir/Number.cpp.o"
   "/home/haxul/CLionProjects/programm/main.cpp" "/home/haxul/CLionProjects/programm/cmake-build-debug/CMakeFiles/untitled.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

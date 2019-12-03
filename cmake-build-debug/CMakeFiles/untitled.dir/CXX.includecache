@@ -16,9 +16,19 @@ Mammal.hpp
 sys/types.h
 -
 
+/home/haxul/CLionProjects/programm/Number.cpp
+Number.h
+/home/haxul/CLionProjects/programm/Number.h
+
+/home/haxul/CLionProjects/programm/Number.h
+iostream
+-
+
 /home/haxul/CLionProjects/programm/main.cpp
 iostream
 -
 Cat.h
 /home/haxul/CLionProjects/programm/Cat.h
+Number.h
+/home/haxul/CLionProjects/programm/Number.h
 

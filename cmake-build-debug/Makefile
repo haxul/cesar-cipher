@@ -177,6 +177,33 @@ Mammal.cpp.s:
 	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/Mammal.cpp.s
 .PHONY : Mammal.cpp.s
 
+Number.o: Number.cpp.o
+
+.PHONY : Number.o
+
+# target to build an object file
+Number.cpp.o:
+	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/Number.cpp.o
+.PHONY : Number.cpp.o
+
+Number.i: Number.cpp.i
+
+.PHONY : Number.i
+
+# target to preprocess a source file
+Number.cpp.i:
+	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/Number.cpp.i
+.PHONY : Number.cpp.i
+
+Number.s: Number.cpp.s
+
+.PHONY : Number.s
+
+# target to generate assembly for a file
+Number.cpp.s:
+	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/Number.cpp.s
+.PHONY : Number.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -219,6 +246,9 @@ help:
 	@echo "... Mammal.o"
 	@echo "... Mammal.i"
 	@echo "... Mammal.s"
+	@echo "... Number.o"
+	@echo "... Number.i"
+	@echo "... Number.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
