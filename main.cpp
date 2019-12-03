@@ -9,6 +9,7 @@ void foo  (Mammal* mammal) {
 int Mammal::data = 500;
 int main() {
     cout << Mammal::data << endl;
+    cout << Mammal::sumo << endl;
     Mammal* mammal = new Cat();
     Cat* anotherCat = dynamic_cast<Cat*>(mammal);
     anotherCat->say();

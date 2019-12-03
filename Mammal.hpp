@@ -12,6 +12,7 @@ public:
     void feed_milk() const;
     virtual void say();
     static int data;
+    const static int sumo = 300;
 protected:
     int getPows();
     uint pows = 4;

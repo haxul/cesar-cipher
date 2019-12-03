@@ -12,10 +12,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ebe9de83-2ebe-4496-a6fb-f16a1a2aa792" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mammal.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Mammal.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Mammal.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/Mammal.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/CXX.includecache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/Mammal.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/Mammal.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/main.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/untitled" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/untitled" afterDir="false" />
@@ -81,7 +78,7 @@
       <updated>1575278252956</updated>
       <workItem from="1575278258132" duration="2827000" />
       <workItem from="1575305934658" duration="4403000" />
-      <workItem from="1575391082540" duration="2216000" />
+      <workItem from="1575391082540" duration="2481000" />
     </task>
     <servers />
   </component>
@@ -89,25 +86,25 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1263" height="175" key="GridCell.Tab.0.bottom" timestamp="1575393320030">
+    <state width="1263" height="175" key="GridCell.Tab.0.bottom" timestamp="1575393586129">
       <screen x="0" y="27" width="1309" height="741" />
     </state>
-    <state width="1263" height="175" key="GridCell.Tab.0.bottom/0.27.1309.741@0.27.1309.741" timestamp="1575393320030" />
+    <state width="1263" height="175" key="GridCell.Tab.0.bottom/0.27.1309.741@0.27.1309.741" timestamp="1575393586129" />
     <state width="1815" height="278" key="GridCell.Tab.0.bottom/0.27.1861.1053@0.27.1861.1053" timestamp="1575281085144" />
-    <state width="1263" height="175" key="GridCell.Tab.0.center" timestamp="1575393320030">
+    <state width="1263" height="175" key="GridCell.Tab.0.center" timestamp="1575393586129">
       <screen x="0" y="27" width="1309" height="741" />
     </state>
-    <state width="1263" height="175" key="GridCell.Tab.0.center/0.27.1309.741@0.27.1309.741" timestamp="1575393320029" />
+    <state width="1263" height="175" key="GridCell.Tab.0.center/0.27.1309.741@0.27.1309.741" timestamp="1575393586129" />
     <state width="1815" height="278" key="GridCell.Tab.0.center/0.27.1861.1053@0.27.1861.1053" timestamp="1575281085144" />
-    <state width="1263" height="175" key="GridCell.Tab.0.left" timestamp="1575393320029">
+    <state width="1263" height="175" key="GridCell.Tab.0.left" timestamp="1575393586128">
       <screen x="0" y="27" width="1309" height="741" />
     </state>
-    <state width="1263" height="175" key="GridCell.Tab.0.left/0.27.1309.741@0.27.1309.741" timestamp="1575393320029" />
+    <state width="1263" height="175" key="GridCell.Tab.0.left/0.27.1309.741@0.27.1309.741" timestamp="1575393586128" />
     <state width="1815" height="278" key="GridCell.Tab.0.left/0.27.1861.1053@0.27.1861.1053" timestamp="1575281085144" />
-    <state width="1263" height="175" key="GridCell.Tab.0.right" timestamp="1575393320030">
+    <state width="1263" height="175" key="GridCell.Tab.0.right" timestamp="1575393586129">
       <screen x="0" y="27" width="1309" height="741" />
     </state>
-    <state width="1263" height="175" key="GridCell.Tab.0.right/0.27.1309.741@0.27.1309.741" timestamp="1575393320030" />
+    <state width="1263" height="175" key="GridCell.Tab.0.right/0.27.1309.741@0.27.1309.741" timestamp="1575393586129" />
     <state width="1815" height="278" key="GridCell.Tab.0.right/0.27.1861.1053@0.27.1861.1053" timestamp="1575281085144" />
     <state x="412" y="275" key="com.intellij.ide.util.TipDialog" timestamp="1575391083701">
       <screen x="0" y="27" width="1309" height="741" />
