@@ -27,7 +27,18 @@ public:
 
     T* f;
 };
+int foo(int (*f)(int c, int g ) , int b, int d) {
+   return f(b, d);
+}
+
+int g(int a , int b) {
+    return a + b;
+}
 
 int main() {
+    int (*func) (int a );
+    int (*func2) (int a , int b);
+    func2 = &g;
+    cout << foo(func2, 10, 15);
     return 0;
 }
