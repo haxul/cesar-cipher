@@ -13,7 +13,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ebe9de83-2ebe-4496-a6fb-f16a1a2aa792" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/CXX.includecache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/main.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/untitled" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/untitled" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
@@ -79,6 +78,7 @@
       <workItem from="1575278258132" duration="2827000" />
       <workItem from="1575305934658" duration="4403000" />
       <workItem from="1575391082540" duration="8447000" />
+      <workItem from="1575478308360" duration="2962000" />
     </task>
     <servers />
   </component>
@@ -90,30 +90,34 @@
       <screen x="0" y="27" width="1309" height="741" />
     </state>
     <state x="462" y="115" width="374" height="562" key="#com.intellij.ide.util.MemberChooser/0.27.1309.741@0.27.1309.741" timestamp="1575395762974" />
-    <state width="1263" height="175" key="GridCell.Tab.0.bottom" timestamp="1575399941374">
+    <state width="1263" height="175" key="GridCell.Tab.0.bottom" timestamp="1575481202557">
       <screen x="0" y="27" width="1309" height="741" />
     </state>
-    <state width="1263" height="175" key="GridCell.Tab.0.bottom/0.27.1309.741@0.27.1309.741" timestamp="1575399941374" />
+    <state width="1263" height="175" key="GridCell.Tab.0.bottom/0.27.1309.741@0.27.1309.741" timestamp="1575481202557" />
     <state width="1815" height="278" key="GridCell.Tab.0.bottom/0.27.1861.1053@0.27.1861.1053" timestamp="1575281085144" />
-    <state width="1263" height="175" key="GridCell.Tab.0.center" timestamp="1575399941373">
+    <state width="1263" height="175" key="GridCell.Tab.0.center" timestamp="1575481202557">
       <screen x="0" y="27" width="1309" height="741" />
     </state>
-    <state width="1263" height="175" key="GridCell.Tab.0.center/0.27.1309.741@0.27.1309.741" timestamp="1575399941373" />
+    <state width="1263" height="175" key="GridCell.Tab.0.center/0.27.1309.741@0.27.1309.741" timestamp="1575481202557" />
     <state width="1815" height="278" key="GridCell.Tab.0.center/0.27.1861.1053@0.27.1861.1053" timestamp="1575281085144" />
-    <state width="1263" height="175" key="GridCell.Tab.0.left" timestamp="1575399941373">
+    <state width="1263" height="175" key="GridCell.Tab.0.left" timestamp="1575481202556">
       <screen x="0" y="27" width="1309" height="741" />
     </state>
-    <state width="1263" height="175" key="GridCell.Tab.0.left/0.27.1309.741@0.27.1309.741" timestamp="1575399941373" />
+    <state width="1263" height="175" key="GridCell.Tab.0.left/0.27.1309.741@0.27.1309.741" timestamp="1575481202556" />
     <state width="1815" height="278" key="GridCell.Tab.0.left/0.27.1861.1053@0.27.1861.1053" timestamp="1575281085144" />
-    <state width="1263" height="175" key="GridCell.Tab.0.right" timestamp="1575399941374">
+    <state width="1263" height="175" key="GridCell.Tab.0.right" timestamp="1575481202557">
       <screen x="0" y="27" width="1309" height="741" />
     </state>
-    <state width="1263" height="175" key="GridCell.Tab.0.right/0.27.1309.741@0.27.1309.741" timestamp="1575399941374" />
+    <state width="1263" height="175" key="GridCell.Tab.0.right/0.27.1309.741@0.27.1309.741" timestamp="1575481202557" />
     <state width="1815" height="278" key="GridCell.Tab.0.right/0.27.1861.1053@0.27.1861.1053" timestamp="1575281085144" />
-    <state x="412" y="275" key="com.intellij.ide.util.TipDialog" timestamp="1575391083701">
+    <state x="412" y="275" key="com.intellij.ide.util.TipDialog" timestamp="1575478309214">
       <screen x="0" y="27" width="1309" height="741" />
     </state>
-    <state x="412" y="275" key="com.intellij.ide.util.TipDialog/0.27.1309.741@0.27.1309.741" timestamp="1575391083701" />
+    <state x="412" y="275" key="com.intellij.ide.util.TipDialog/0.27.1309.741@0.27.1309.741" timestamp="1575478309214" />
     <state x="586" y="380" key="com.intellij.ide.util.TipDialog/0.27.1861.1053@0.27.1861.1053" timestamp="1575278258145" />
+    <state x="317" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1575480579324">
+      <screen x="0" y="27" width="1309" height="741" />
+    </state>
+    <state x="317" y="89" width="672" height="678" key="search.everywhere.popup/0.27.1309.741@0.27.1309.741" timestamp="1575480579324" />
   </component>
 </project>
