@@ -80,6 +80,7 @@
       <workItem from="1575305934658" duration="4403000" />
       <workItem from="1575391082540" duration="8447000" />
       <workItem from="1575478308360" duration="7431000" />
+      <workItem from="1575563464714" duration="923000" />
     </task>
     <servers />
   </component>
@@ -111,10 +112,10 @@
     </state>
     <state width="1263" height="175" key="GridCell.Tab.0.right/0.27.1309.741@0.27.1309.741" timestamp="1575486697059" />
     <state width="1815" height="278" key="GridCell.Tab.0.right/0.27.1861.1053@0.27.1861.1053" timestamp="1575281085144" />
-    <state x="412" y="275" key="com.intellij.ide.util.TipDialog" timestamp="1575478309214">
+    <state x="412" y="275" key="com.intellij.ide.util.TipDialog" timestamp="1575563466747">
       <screen x="0" y="27" width="1309" height="741" />
     </state>
-    <state x="412" y="275" key="com.intellij.ide.util.TipDialog/0.27.1309.741@0.27.1309.741" timestamp="1575478309214" />
+    <state x="412" y="275" key="com.intellij.ide.util.TipDialog/0.27.1309.741@0.27.1309.741" timestamp="1575563466747" />
     <state x="586" y="380" key="com.intellij.ide.util.TipDialog/0.27.1861.1053@0.27.1861.1053" timestamp="1575278258145" />
     <state x="317" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1575480579324">
       <screen x="0" y="27" width="1309" height="741" />

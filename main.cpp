@@ -2,6 +2,8 @@
 #include "Cat.h"
 #include "Number.h"
 #include <functional>
+#include <vector>
+#include <algorithm>
 
 using namespace std;
 typedef unsigned int uint;
@@ -42,22 +44,12 @@ public:
 };
 
 int main() {
-    int arr[10] {};
-    auto la = [&arr](string h){
-        arr[2] = 10;
-        cout << h << endl;
-    };
-    la("hello lambda");
-//    [&arr](int a){arr[2] = 10;}(1);
-    cout << arr[2] << endl;
-    function<int(int, int)> func_sum;
-    func_sum = g;
-    cout << func_sum(1,3) << endl;
-    Functor functor;
-    functor();
-    int (*func) (int a );
-    int (*func2) (int a , int b);
-    func2 = &g;
-    cout << foo(func2, 10, 15);
+   vector<int> arr {1,2,3,4,5,6,7};
+   auto  iterator = find_if(arr.begin(),arr.end(),[](int a){
+       return a > 5;
+   });
+   if (iterator != arr.end()) {
+       cout << *iterator;
+   }
     return 0;
 }
