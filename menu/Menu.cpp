@@ -1,29 +1,63 @@
 #include "Menu.h"
 #include <string>
 #include <iostream>
+#include <vector>
+#include <array>
+#include <algorithm>
+#include <stdio.h>
+#include <stdlib.h>
+#include <ctype.h>
 
 using namespace std;
 
 void Menu::show_logo() {
-    std::string row_1 = "******  **  ****** **  **  ******  ******";
-    std::string row_2 = "*       **  *    * **  **  *       *    *";
-    std::string row_3 = "*       **  ****** ******  ******  ******";
-    std::string row_4 = "*       **  *      **  **  *       *  *  ";
-    std::string row_5 = "******  **  *      **  **  ******  *    *";
+    string row_1 = "******  **  ****** **  **  ******  ******";
+    string row_2 = "*       **  *    * **  **  *       *    *";
+    string row_3 = "*       **  ****** ******  ******  ******";
+    string row_4 = "*       **  *      **  **  *       *  *  ";
+    string row_5 = "******  **  *      **  **  ******  *    *";
 
-    std::string rows[5] {row_1, row_2, row_3, row_4, row_5};
-    for (std::string row : rows ) {
-        std::cout << row << std::endl;
+    string rows[5]{row_1, row_2, row_3, row_4, row_5};
+    for (string row : rows) {
+        cout << row << std::endl;
+    }
+}
+
+void Menu::show_commands() {
+    cout << "Welcome! Choose encrypt algorithm :" << endl;
+    cout << "2 - cesar encrypt" << endl;
+    cout << "1 - exit" << endl;
+}
+
+void Menu::chose_option(vector<int>::iterator it, int &option) {
+
+    switch (*it) {
+        case 1:
+            cout << "have a good day";
+            exit(10);
+        case 2:
+            cout << "work";
+            exit(10);
+        default:
+            cout << "unknown command. Please try again" << endl << "Enter: ";
+            break;
     }
 }
 
 void Menu::open_panel() {
     Menu::show_logo();
-    cout << "Welcome! Choose encrypt algorithm :" << endl;
-    cout << "0 - cesar encrypt" << endl;
-    int *existed_algorithms = new int[1];
-    int algorithm_number;
-    cin >> algorithm_number;
-    cout << algorithm_number;
+    Menu::show_commands();
+
+    vector<int> options{1, 2};
+    vector<int>::iterator it;
+
+    int option;
+
+    cout << "Enter: ";
+    while (true) {
+        cin >> option;
+        it = find(options.begin(), options.end(), option);
+        Menu::chose_option(it, option);
+    }
 }
 

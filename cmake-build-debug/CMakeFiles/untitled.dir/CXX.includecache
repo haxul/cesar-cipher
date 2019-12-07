@@ -13,6 +13,20 @@ string
 -
 iostream
 -
+vector
+-
+array
+-
+algorithm
+-
+stdio.h
+-
+stdlib.h
+-
+ctype.h
+-
 
 /home/haxul/Documents/development/cipher/menu/Menu.h
+vector
+-
 
