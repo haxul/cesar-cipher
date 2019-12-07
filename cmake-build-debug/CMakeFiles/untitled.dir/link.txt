@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/untitled.dir/main.cpp.o CMakeFiles/untitled.dir/Mammal.cpp.o CMakeFiles/untitled.dir/Cat.cpp.o CMakeFiles/untitled.dir/Number.cpp.o  -o untitled 
+/usr/bin/c++  -g   CMakeFiles/untitled.dir/main.cpp.o CMakeFiles/untitled.dir/greeting/Greeting.cpp.o  -o untitled 

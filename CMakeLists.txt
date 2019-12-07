@@ -3,4 +3,4 @@ project(untitled)
 
 set(CMAKE_CXX_STANDARD 14)
 file(GLOB SOURCES ./*.h ./*.cpp)
-add_executable(untitled main.cpp Mammal.cpp Mammal.hpp Cat.cpp Cat.h Number.cpp Number.h)
+add_executable(untitled main.cpp greeting/Greeting.cpp greeting/Greeting.h)

@@ -1,4 +1,4 @@
-# Install script for directory: /home/haxul/CLionProjects/programm
+# Install script for directory: /home/haxul/Documents/development/cipher
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/haxul/CLionProjects/programm/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/haxul/Documents/development/cipher/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

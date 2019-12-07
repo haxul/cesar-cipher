@@ -1,4 +1,4 @@
-/snap/clion/97/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/haxul/CLionProjects/programm
+/snap/clion/98/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/haxul/Documents/development/cipher
 -- Configuring done
 -- Generating done
--- Build files have been written to: /home/haxul/CLionProjects/programm/cmake-build-debug
+-- Build files have been written to: /home/haxul/Documents/development/cipher/cmake-build-debug

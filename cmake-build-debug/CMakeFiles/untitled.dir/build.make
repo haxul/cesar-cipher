@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /snap/clion/97/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /snap/clion/98/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /snap/clion/97/bin/cmake/linux/bin/cmake -E remove -f
+RM = /snap/clion/98/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/haxul/CLionProjects/programm
+CMAKE_SOURCE_DIR = /home/haxul/Documents/development/cipher
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/haxul/CLionProjects/programm/cmake-build-debug
+CMAKE_BINARY_DIR = /home/haxul/Documents/development/cipher/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/untitled.dir/depend.make
@@ -59,73 +59,43 @@ include CMakeFiles/untitled.dir/flags.make
 
 CMakeFiles/untitled.dir/main.cpp.o: CMakeFiles/untitled.dir/flags.make
 CMakeFiles/untitled.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/haxul/CLionProjects/programm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/untitled.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled.dir/main.cpp.o -c /home/haxul/CLionProjects/programm/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/haxul/Documents/development/cipher/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/untitled.dir/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled.dir/main.cpp.o -c /home/haxul/Documents/development/cipher/main.cpp
 
 CMakeFiles/untitled.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/haxul/CLionProjects/programm/main.cpp > CMakeFiles/untitled.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/haxul/Documents/development/cipher/main.cpp > CMakeFiles/untitled.dir/main.cpp.i
 
 CMakeFiles/untitled.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/haxul/CLionProjects/programm/main.cpp -o CMakeFiles/untitled.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/haxul/Documents/development/cipher/main.cpp -o CMakeFiles/untitled.dir/main.cpp.s
 
-CMakeFiles/untitled.dir/Mammal.cpp.o: CMakeFiles/untitled.dir/flags.make
-CMakeFiles/untitled.dir/Mammal.cpp.o: ../Mammal.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/haxul/CLionProjects/programm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/untitled.dir/Mammal.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled.dir/Mammal.cpp.o -c /home/haxul/CLionProjects/programm/Mammal.cpp
+CMakeFiles/untitled.dir/greeting/Greeting.cpp.o: CMakeFiles/untitled.dir/flags.make
+CMakeFiles/untitled.dir/greeting/Greeting.cpp.o: ../greeting/Greeting.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/haxul/Documents/development/cipher/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/untitled.dir/greeting/Greeting.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled.dir/greeting/Greeting.cpp.o -c /home/haxul/Documents/development/cipher/greeting/Greeting.cpp
 
-CMakeFiles/untitled.dir/Mammal.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled.dir/Mammal.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/haxul/CLionProjects/programm/Mammal.cpp > CMakeFiles/untitled.dir/Mammal.cpp.i
+CMakeFiles/untitled.dir/greeting/Greeting.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled.dir/greeting/Greeting.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/haxul/Documents/development/cipher/greeting/Greeting.cpp > CMakeFiles/untitled.dir/greeting/Greeting.cpp.i
 
-CMakeFiles/untitled.dir/Mammal.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled.dir/Mammal.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/haxul/CLionProjects/programm/Mammal.cpp -o CMakeFiles/untitled.dir/Mammal.cpp.s
-
-CMakeFiles/untitled.dir/Cat.cpp.o: CMakeFiles/untitled.dir/flags.make
-CMakeFiles/untitled.dir/Cat.cpp.o: ../Cat.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/haxul/CLionProjects/programm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/untitled.dir/Cat.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled.dir/Cat.cpp.o -c /home/haxul/CLionProjects/programm/Cat.cpp
-
-CMakeFiles/untitled.dir/Cat.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled.dir/Cat.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/haxul/CLionProjects/programm/Cat.cpp > CMakeFiles/untitled.dir/Cat.cpp.i
-
-CMakeFiles/untitled.dir/Cat.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled.dir/Cat.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/haxul/CLionProjects/programm/Cat.cpp -o CMakeFiles/untitled.dir/Cat.cpp.s
-
-CMakeFiles/untitled.dir/Number.cpp.o: CMakeFiles/untitled.dir/flags.make
-CMakeFiles/untitled.dir/Number.cpp.o: ../Number.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/haxul/CLionProjects/programm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/untitled.dir/Number.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled.dir/Number.cpp.o -c /home/haxul/CLionProjects/programm/Number.cpp
-
-CMakeFiles/untitled.dir/Number.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled.dir/Number.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/haxul/CLionProjects/programm/Number.cpp > CMakeFiles/untitled.dir/Number.cpp.i
-
-CMakeFiles/untitled.dir/Number.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled.dir/Number.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/haxul/CLionProjects/programm/Number.cpp -o CMakeFiles/untitled.dir/Number.cpp.s
+CMakeFiles/untitled.dir/greeting/Greeting.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled.dir/greeting/Greeting.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/haxul/Documents/development/cipher/greeting/Greeting.cpp -o CMakeFiles/untitled.dir/greeting/Greeting.cpp.s
 
 # Object files for target untitled
 untitled_OBJECTS = \
 "CMakeFiles/untitled.dir/main.cpp.o" \
-"CMakeFiles/untitled.dir/Mammal.cpp.o" \
-"CMakeFiles/untitled.dir/Cat.cpp.o" \
-"CMakeFiles/untitled.dir/Number.cpp.o"
+"CMakeFiles/untitled.dir/greeting/Greeting.cpp.o"
 
 # External object files for target untitled
 untitled_EXTERNAL_OBJECTS =
 
 untitled: CMakeFiles/untitled.dir/main.cpp.o
-untitled: CMakeFiles/untitled.dir/Mammal.cpp.o
-untitled: CMakeFiles/untitled.dir/Cat.cpp.o
-untitled: CMakeFiles/untitled.dir/Number.cpp.o
+untitled: CMakeFiles/untitled.dir/greeting/Greeting.cpp.o
 untitled: CMakeFiles/untitled.dir/build.make
 untitled: CMakeFiles/untitled.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/haxul/CLionProjects/programm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable untitled"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/haxul/Documents/development/cipher/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable untitled"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/untitled.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -138,6 +108,6 @@ CMakeFiles/untitled.dir/clean:
 .PHONY : CMakeFiles/untitled.dir/clean
 
 CMakeFiles/untitled.dir/depend:
-	cd /home/haxul/CLionProjects/programm/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/haxul/CLionProjects/programm /home/haxul/CLionProjects/programm /home/haxul/CLionProjects/programm/cmake-build-debug /home/haxul/CLionProjects/programm/cmake-build-debug /home/haxul/CLionProjects/programm/cmake-build-debug/CMakeFiles/untitled.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/haxul/Documents/development/cipher/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/haxul/Documents/development/cipher /home/haxul/Documents/development/cipher /home/haxul/Documents/development/cipher/cmake-build-debug /home/haxul/Documents/development/cipher/cmake-build-debug /home/haxul/Documents/development/cipher/cmake-build-debug/CMakeFiles/untitled.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/untitled.dir/depend
 

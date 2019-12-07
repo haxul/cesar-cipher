@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /snap/clion/97/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /snap/clion/98/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /snap/clion/97/bin/cmake/linux/bin/cmake -E remove -f
+RM = /snap/clion/98/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/haxul/CLionProjects/programm
+CMAKE_SOURCE_DIR = /home/haxul/Documents/development/cipher
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/haxul/CLionProjects/programm/cmake-build-debug
+CMAKE_BINARY_DIR = /home/haxul/Documents/development/cipher/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/haxul/CLionProjects/programm/cmake-build-debug
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/snap/clion/97/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/snap/clion/98/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/snap/clion/97/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/snap/clion/98/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/haxul/CLionProjects/programm/cmake-build-debug/CMakeFiles /home/haxul/CLionProjects/programm/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/haxul/Documents/development/cipher/cmake-build-debug/CMakeFiles /home/haxul/Documents/development/cipher/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/haxul/CLionProjects/programm/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/haxul/Documents/development/cipher/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -123,86 +123,32 @@ untitled/fast:
 	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/build
 .PHONY : untitled/fast
 
-Cat.o: Cat.cpp.o
+greeting/Greeting.o: greeting/Greeting.cpp.o
 
-.PHONY : Cat.o
-
-# target to build an object file
-Cat.cpp.o:
-	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/Cat.cpp.o
-.PHONY : Cat.cpp.o
-
-Cat.i: Cat.cpp.i
-
-.PHONY : Cat.i
-
-# target to preprocess a source file
-Cat.cpp.i:
-	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/Cat.cpp.i
-.PHONY : Cat.cpp.i
-
-Cat.s: Cat.cpp.s
-
-.PHONY : Cat.s
-
-# target to generate assembly for a file
-Cat.cpp.s:
-	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/Cat.cpp.s
-.PHONY : Cat.cpp.s
-
-Mammal.o: Mammal.cpp.o
-
-.PHONY : Mammal.o
+.PHONY : greeting/Greeting.o
 
 # target to build an object file
-Mammal.cpp.o:
-	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/Mammal.cpp.o
-.PHONY : Mammal.cpp.o
+greeting/Greeting.cpp.o:
+	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/greeting/Greeting.cpp.o
+.PHONY : greeting/Greeting.cpp.o
 
-Mammal.i: Mammal.cpp.i
+greeting/Greeting.i: greeting/Greeting.cpp.i
 
-.PHONY : Mammal.i
-
-# target to preprocess a source file
-Mammal.cpp.i:
-	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/Mammal.cpp.i
-.PHONY : Mammal.cpp.i
-
-Mammal.s: Mammal.cpp.s
-
-.PHONY : Mammal.s
-
-# target to generate assembly for a file
-Mammal.cpp.s:
-	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/Mammal.cpp.s
-.PHONY : Mammal.cpp.s
-
-Number.o: Number.cpp.o
-
-.PHONY : Number.o
-
-# target to build an object file
-Number.cpp.o:
-	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/Number.cpp.o
-.PHONY : Number.cpp.o
-
-Number.i: Number.cpp.i
-
-.PHONY : Number.i
+.PHONY : greeting/Greeting.i
 
 # target to preprocess a source file
-Number.cpp.i:
-	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/Number.cpp.i
-.PHONY : Number.cpp.i
+greeting/Greeting.cpp.i:
+	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/greeting/Greeting.cpp.i
+.PHONY : greeting/Greeting.cpp.i
 
-Number.s: Number.cpp.s
+greeting/Greeting.s: greeting/Greeting.cpp.s
 
-.PHONY : Number.s
+.PHONY : greeting/Greeting.s
 
 # target to generate assembly for a file
-Number.cpp.s:
-	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/Number.cpp.s
-.PHONY : Number.cpp.s
+greeting/Greeting.cpp.s:
+	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/greeting/Greeting.cpp.s
+.PHONY : greeting/Greeting.cpp.s
 
 main.o: main.cpp.o
 
@@ -240,15 +186,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... untitled"
 	@echo "... edit_cache"
-	@echo "... Cat.o"
-	@echo "... Cat.i"
-	@echo "... Cat.s"
-	@echo "... Mammal.o"
-	@echo "... Mammal.i"
-	@echo "... Mammal.s"
-	@echo "... Number.o"
-	@echo "... Number.i"
-	@echo "... Number.s"
+	@echo "... greeting/Greeting.o"
+	@echo "... greeting/Greeting.i"
+	@echo "... greeting/Greeting.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
