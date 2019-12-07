@@ -56,6 +56,12 @@ void Menu::open_panel() {
     cout << "Enter: ";
     while (true) {
         cin >> option;
+        if (cin.fail()) {
+            cin.clear();
+            cin.ignore(32767, '\n');
+            cout << "What a fuck man? I've asked you to enter numbers" << endl << "Enter: ";
+            continue;
+        }
         it = find(options.begin(), options.end(), option);
         Menu::chose_option(it, option);
     }
