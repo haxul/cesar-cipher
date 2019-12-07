@@ -6,6 +6,14 @@
 
 #IncludeRegexTransform: 
 
+/home/haxul/Documents/development/cipher/greeting/Greeting.cpp
+Greeting.h
+/home/haxul/Documents/development/cipher/greeting/Greeting.h
+
+/home/haxul/Documents/development/cipher/greeting/Greeting.h
+iostream
+-
+
 /home/haxul/Documents/development/cipher/main.cpp
 iostream
 -
@@ -15,4 +23,6 @@ vector
 -
 algorithm
 -
+./greeting/Greeting.h
+/home/haxul/Documents/development/cipher/greeting/Greeting.h
 

@@ -8,6 +8,5 @@ typedef unsigned int uint;
 
 
 int main() {
-
     return 0;
 }
