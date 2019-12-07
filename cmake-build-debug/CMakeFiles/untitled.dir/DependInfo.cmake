@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/haxul/Documents/development/cipher/greeting/Greeting.cpp" "/home/haxul/Documents/development/cipher/cmake-build-debug/CMakeFiles/untitled.dir/greeting/Greeting.cpp.o"
   "/home/haxul/Documents/development/cipher/main.cpp" "/home/haxul/Documents/development/cipher/cmake-build-debug/CMakeFiles/untitled.dir/main.cpp.o"
+  "/home/haxul/Documents/development/cipher/menu/Menu.cpp" "/home/haxul/Documents/development/cipher/cmake-build-debug/CMakeFiles/untitled.dir/menu/Menu.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

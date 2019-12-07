@@ -70,29 +70,29 @@ CMakeFiles/untitled.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled.dir/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/haxul/Documents/development/cipher/main.cpp -o CMakeFiles/untitled.dir/main.cpp.s
 
-CMakeFiles/untitled.dir/greeting/Greeting.cpp.o: CMakeFiles/untitled.dir/flags.make
-CMakeFiles/untitled.dir/greeting/Greeting.cpp.o: ../greeting/Greeting.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/haxul/Documents/development/cipher/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/untitled.dir/greeting/Greeting.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled.dir/greeting/Greeting.cpp.o -c /home/haxul/Documents/development/cipher/greeting/Greeting.cpp
+CMakeFiles/untitled.dir/menu/Menu.cpp.o: CMakeFiles/untitled.dir/flags.make
+CMakeFiles/untitled.dir/menu/Menu.cpp.o: ../menu/Menu.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/haxul/Documents/development/cipher/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/untitled.dir/menu/Menu.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled.dir/menu/Menu.cpp.o -c /home/haxul/Documents/development/cipher/menu/Menu.cpp
 
-CMakeFiles/untitled.dir/greeting/Greeting.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled.dir/greeting/Greeting.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/haxul/Documents/development/cipher/greeting/Greeting.cpp > CMakeFiles/untitled.dir/greeting/Greeting.cpp.i
+CMakeFiles/untitled.dir/menu/Menu.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled.dir/menu/Menu.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/haxul/Documents/development/cipher/menu/Menu.cpp > CMakeFiles/untitled.dir/menu/Menu.cpp.i
 
-CMakeFiles/untitled.dir/greeting/Greeting.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled.dir/greeting/Greeting.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/haxul/Documents/development/cipher/greeting/Greeting.cpp -o CMakeFiles/untitled.dir/greeting/Greeting.cpp.s
+CMakeFiles/untitled.dir/menu/Menu.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled.dir/menu/Menu.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/haxul/Documents/development/cipher/menu/Menu.cpp -o CMakeFiles/untitled.dir/menu/Menu.cpp.s
 
 # Object files for target untitled
 untitled_OBJECTS = \
 "CMakeFiles/untitled.dir/main.cpp.o" \
-"CMakeFiles/untitled.dir/greeting/Greeting.cpp.o"
+"CMakeFiles/untitled.dir/menu/Menu.cpp.o"
 
 # External object files for target untitled
 untitled_EXTERNAL_OBJECTS =
 
 untitled: CMakeFiles/untitled.dir/main.cpp.o
-untitled: CMakeFiles/untitled.dir/greeting/Greeting.cpp.o
+untitled: CMakeFiles/untitled.dir/menu/Menu.cpp.o
 untitled: CMakeFiles/untitled.dir/build.make
 untitled: CMakeFiles/untitled.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/haxul/Documents/development/cipher/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable untitled"

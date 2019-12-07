@@ -123,33 +123,6 @@ untitled/fast:
 	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/build
 .PHONY : untitled/fast
 
-greeting/Greeting.o: greeting/Greeting.cpp.o
-
-.PHONY : greeting/Greeting.o
-
-# target to build an object file
-greeting/Greeting.cpp.o:
-	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/greeting/Greeting.cpp.o
-.PHONY : greeting/Greeting.cpp.o
-
-greeting/Greeting.i: greeting/Greeting.cpp.i
-
-.PHONY : greeting/Greeting.i
-
-# target to preprocess a source file
-greeting/Greeting.cpp.i:
-	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/greeting/Greeting.cpp.i
-.PHONY : greeting/Greeting.cpp.i
-
-greeting/Greeting.s: greeting/Greeting.cpp.s
-
-.PHONY : greeting/Greeting.s
-
-# target to generate assembly for a file
-greeting/Greeting.cpp.s:
-	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/greeting/Greeting.cpp.s
-.PHONY : greeting/Greeting.cpp.s
-
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -177,6 +150,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+menu/Menu.o: menu/Menu.cpp.o
+
+.PHONY : menu/Menu.o
+
+# target to build an object file
+menu/Menu.cpp.o:
+	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/menu/Menu.cpp.o
+.PHONY : menu/Menu.cpp.o
+
+menu/Menu.i: menu/Menu.cpp.i
+
+.PHONY : menu/Menu.i
+
+# target to preprocess a source file
+menu/Menu.cpp.i:
+	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/menu/Menu.cpp.i
+.PHONY : menu/Menu.cpp.i
+
+menu/Menu.s: menu/Menu.cpp.s
+
+.PHONY : menu/Menu.s
+
+# target to generate assembly for a file
+menu/Menu.cpp.s:
+	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/menu/Menu.cpp.s
+.PHONY : menu/Menu.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -186,12 +186,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... untitled"
 	@echo "... edit_cache"
-	@echo "... greeting/Greeting.o"
-	@echo "... greeting/Greeting.i"
-	@echo "... greeting/Greeting.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... menu/Menu.o"
+	@echo "... menu/Menu.i"
+	@echo "... menu/Menu.s"
 .PHONY : help
 
 

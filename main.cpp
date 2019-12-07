@@ -3,10 +3,9 @@
 #include <vector>
 #include <algorithm>
 
-using namespace std;
-typedef unsigned int uint;
-
-
+#include "./menu/Menu.h"
 int main() {
+    Menu menu;
+    menu.open_panel();
     return 0;
 }

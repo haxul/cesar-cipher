@@ -6,23 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/home/haxul/Documents/development/cipher/greeting/Greeting.cpp
-Greeting.h
-/home/haxul/Documents/development/cipher/greeting/Greeting.h
-
-/home/haxul/Documents/development/cipher/greeting/Greeting.h
+/home/haxul/Documents/development/cipher/menu/Menu.cpp
+Menu.h
+/home/haxul/Documents/development/cipher/menu/Menu.h
+string
+-
 iostream
 -
 
-/home/haxul/Documents/development/cipher/main.cpp
-iostream
--
-functional
--
-vector
--
-algorithm
--
-./greeting/Greeting.h
-/home/haxul/Documents/development/cipher/greeting/Greeting.h
+/home/haxul/Documents/development/cipher/menu/Menu.h
 
