@@ -3,7 +3,9 @@
 
 CMakeFiles/untitled.dir/main.cpp.o: ../main.cpp
 CMakeFiles/untitled.dir/main.cpp.o: ../menu/Menu.h
+CMakeFiles/untitled.dir/main.cpp.o: ../menu/MenuInterface.h
 
 CMakeFiles/untitled.dir/menu/Menu.cpp.o: ../menu/Menu.cpp
 CMakeFiles/untitled.dir/menu/Menu.cpp.o: ../menu/Menu.h
+CMakeFiles/untitled.dir/menu/Menu.cpp.o: ../menu/MenuInterface.h
 

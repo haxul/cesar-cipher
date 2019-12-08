@@ -6,6 +6,18 @@
 
 #IncludeRegexTransform: 
 
+/home/haxul/Documents/development/cipher/main.cpp
+iostream
+-
+functional
+-
+vector
+-
+algorithm
+-
+./menu/Menu.h
+/home/haxul/Documents/development/cipher/menu/Menu.h
+
 /home/haxul/Documents/development/cipher/menu/Menu.cpp
 Menu.h
 /home/haxul/Documents/development/cipher/menu/Menu.h
@@ -27,6 +39,16 @@ ctype.h
 -
 
 /home/haxul/Documents/development/cipher/menu/Menu.h
+vector
+-
+MenuInterface.h
+/home/haxul/Documents/development/cipher/menu/MenuInterface.h
+
+/home/haxul/Documents/development/cipher/menu/MenuInterface.h
+string
+-
+iostream
+-
 vector
 -
 

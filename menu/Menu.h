@@ -1,9 +1,10 @@
 #include <vector>
+#include "MenuInterface.h"
 #ifndef UNTITLED_MENU_H
 #define UNTITLED_MENU_H
 
 
-class Menu {
+class Menu : public MenuInterface{
 private:
     void show_logo(void);
     void show_commands(void);

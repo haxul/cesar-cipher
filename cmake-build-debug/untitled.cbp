@@ -93,6 +93,9 @@
 		<Unit filename="/home/haxul/Documents/development/cipher/menu/Menu.h">
 			<Option target="untitled"/>
 		</Unit>
+		<Unit filename="/home/haxul/Documents/development/cipher/menu/MenuInterface.h">
+			<Option target="untitled"/>
+		</Unit>
 		<Unit filename="/home/haxul/Documents/development/cipher/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
