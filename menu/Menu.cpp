@@ -2,11 +2,8 @@
 #include <string>
 #include <iostream>
 #include <vector>
-#include <array>
 #include <algorithm>
-#include <stdio.h>
 #include <stdlib.h>
-#include <ctype.h>
 
 using namespace std;
 
