@@ -5,6 +5,7 @@
 #include <stdlib.h>
 #include "Cesar.h"
 #include "../../helpers/input_helper.h"
+
 using namespace std;
 
 #ifndef UNTITLED_BEGIN_ENCYPTION_H
@@ -20,15 +21,15 @@ void begin_cesar_encryption() {
     while(true) {
         cout << "enter shift: " << endl;
         cin >> shift;
-        if (cin.fail()) {
+        if (cin.fail() || shift > 26 || shift < 0) {
             clear_cin();
-            cout << "Only numbers" << endl;
+            cout << "Only numbers. 0 > Number <= 26" << endl;
             continue;
         }
         break;
     }
     Cesar cipher(text, shift);
-    string encrypted_text = cipher.encrypt();
+    cipher.encrypt();
 }
 
 #endif //UNTITLED_BEGIN_ENCYPTION_H

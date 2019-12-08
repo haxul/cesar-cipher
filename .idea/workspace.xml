@@ -13,16 +13,12 @@
   <component name="ChangeListManager">
     <list default="true" id="ebe9de83-2ebe-4496-a6fb-f16a1a2aa792" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/depend.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/menu/Menu.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/menu/Menu.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/untitled" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/untitled" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/untitled.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/untitled.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/encryptions/cesar/Cesar.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/encryptions/cesar/Cesar.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/encryptions/cesar/Cesar.h" beforeDir="false" afterPath="$PROJECT_DIR$/encryptions/cesar/Cesar.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/menu/Menu.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/menu/Menu.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/encryptions/cesar/begin_encyption.h" beforeDir="false" afterPath="$PROJECT_DIR$/encryptions/cesar/begin_encyption.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +49,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="restartRequiresConfirmation" value="false" />
   </component>
   <component name="RunManager">
     <configuration name="haxul" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="untitled" TARGET_NAME="untitled" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="untitled" RUN_TARGET_NAME="untitled">
@@ -91,7 +88,7 @@
       <workItem from="1575713971425" duration="68000" />
       <workItem from="1575717526732" duration="3495000" />
       <workItem from="1575736096063" duration="9210000" />
-      <workItem from="1575788285008" duration="6545000" />
+      <workItem from="1575788285008" duration="12012000" />
     </task>
     <servers />
   </component>
@@ -111,29 +108,29 @@
       <screen x="0" y="27" width="1853" height="1053" />
     </state>
     <state x="659" y="301" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.27.1853.1053@0.27.1853.1053" timestamp="1575717840400" />
-    <state width="1807" height="278" key="GridCell.Tab.0.bottom" timestamp="1575799930464">
+    <state width="1807" height="278" key="GridCell.Tab.0.bottom" timestamp="1575805435051">
       <screen x="0" y="27" width="1853" height="1053" />
     </state>
     <state width="1263" height="175" key="GridCell.Tab.0.bottom/0.27.1309.741@0.27.1309.741" timestamp="1575486697060" />
-    <state width="1807" height="278" key="GridCell.Tab.0.bottom/0.27.1853.1053@0.27.1853.1053" timestamp="1575799930464" />
+    <state width="1807" height="278" key="GridCell.Tab.0.bottom/0.27.1853.1053@0.27.1853.1053" timestamp="1575805435051" />
     <state width="1815" height="278" key="GridCell.Tab.0.bottom/0.27.1861.1053@0.27.1861.1053" timestamp="1575281085144" />
-    <state width="1807" height="278" key="GridCell.Tab.0.center" timestamp="1575799930464">
+    <state width="1807" height="278" key="GridCell.Tab.0.center" timestamp="1575805435051">
       <screen x="0" y="27" width="1853" height="1053" />
     </state>
     <state width="1263" height="175" key="GridCell.Tab.0.center/0.27.1309.741@0.27.1309.741" timestamp="1575486697059" />
-    <state width="1807" height="278" key="GridCell.Tab.0.center/0.27.1853.1053@0.27.1853.1053" timestamp="1575799930464" />
+    <state width="1807" height="278" key="GridCell.Tab.0.center/0.27.1853.1053@0.27.1853.1053" timestamp="1575805435051" />
     <state width="1815" height="278" key="GridCell.Tab.0.center/0.27.1861.1053@0.27.1861.1053" timestamp="1575281085144" />
-    <state width="1807" height="278" key="GridCell.Tab.0.left" timestamp="1575799930463">
+    <state width="1807" height="278" key="GridCell.Tab.0.left" timestamp="1575805435051">
       <screen x="0" y="27" width="1853" height="1053" />
     </state>
     <state width="1263" height="175" key="GridCell.Tab.0.left/0.27.1309.741@0.27.1309.741" timestamp="1575486697059" />
-    <state width="1807" height="278" key="GridCell.Tab.0.left/0.27.1853.1053@0.27.1853.1053" timestamp="1575799930463" />
+    <state width="1807" height="278" key="GridCell.Tab.0.left/0.27.1853.1053@0.27.1853.1053" timestamp="1575805435051" />
     <state width="1815" height="278" key="GridCell.Tab.0.left/0.27.1861.1053@0.27.1861.1053" timestamp="1575281085144" />
-    <state width="1807" height="278" key="GridCell.Tab.0.right" timestamp="1575799930464">
+    <state width="1807" height="278" key="GridCell.Tab.0.right" timestamp="1575805435051">
       <screen x="0" y="27" width="1853" height="1053" />
     </state>
     <state width="1263" height="175" key="GridCell.Tab.0.right/0.27.1309.741@0.27.1309.741" timestamp="1575486697059" />
-    <state width="1807" height="278" key="GridCell.Tab.0.right/0.27.1853.1053@0.27.1853.1053" timestamp="1575799930464" />
+    <state width="1807" height="278" key="GridCell.Tab.0.right/0.27.1853.1053@0.27.1853.1053" timestamp="1575805435051" />
     <state width="1815" height="278" key="GridCell.Tab.0.right/0.27.1861.1053@0.27.1861.1053" timestamp="1575281085144" />
     <state x="583" y="379" key="com.intellij.ide.util.TipDialog" timestamp="1575788342942">
       <screen x="0" y="27" width="1853" height="1053" />

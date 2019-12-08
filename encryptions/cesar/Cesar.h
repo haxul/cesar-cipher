@@ -8,7 +8,8 @@ class Cesar {
 public:
     Cesar(std::string text, int shift);
     ~Cesar();
-    std::string encrypt(void);
+    void encrypt(void);
+    static std::string  alphabet[28];
 private:
     std::string *text;
     int *shift;
