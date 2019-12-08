@@ -4,6 +4,9 @@
 #include <vector>
 #include <algorithm>
 #include <stdlib.h>
+#include "../encryptions/cesar/Cesar.h"
+#include "../helpers/input_helper.h"
+#include "../encryptions/cesar/begin_encyption.h"
 
 using namespace std;
 
@@ -27,14 +30,13 @@ void Menu::show_commands() {
 }
 
 void Menu::chose_option(vector<int>::iterator it, int &option) {
-
     switch (*it) {
         case 1:
             cout << "have a good day";
             exit(10);
         case 2:
-            cout << "work";
-            exit(10);
+            begin_cesar_encryption();
+            break;
         default:
             cout << "unknown command. Please try again" << endl << "Enter: ";
             break;
@@ -50,12 +52,11 @@ void Menu::open_panel() {
 
     int option;
 
-    cout << "Enter: ";
     while (true) {
+        cout << "Enter command: " << endl;
         cin >> option;
         if (cin.fail()) {
-            cin.clear();
-            cin.ignore(32767, '\n');
+            clear_cin();
             cout << "What a fuck man? I've asked you to enter numbers" << endl << "Enter: ";
             continue;
         }

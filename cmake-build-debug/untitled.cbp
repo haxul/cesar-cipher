@@ -90,6 +90,15 @@
 		<Unit filename="/home/haxul/Documents/development/cipher/encryptions/cesar/Cesar.h">
 			<Option target="untitled"/>
 		</Unit>
+		<Unit filename="/home/haxul/Documents/development/cipher/encryptions/cesar/CesarInterface.h">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="/home/haxul/Documents/development/cipher/encryptions/cesar/begin_encyption.h">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="/home/haxul/Documents/development/cipher/helpers/input_helper.h">
+			<Option target="untitled"/>
+		</Unit>
 		<Unit filename="/home/haxul/Documents/development/cipher/main.cpp">
 			<Option target="untitled"/>
 		</Unit>
