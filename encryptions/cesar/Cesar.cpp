@@ -23,30 +23,20 @@ void Cesar::encrypt() {
 
     string *shifted_letters = new string[*shift];
     string *rest_letters = new string[ALL_AMOUNT_ALPHABET_LETTERS - *shift];
+    vector<string> *cipher = new vector<string>;
     int *rest_letters_size = new int(*shift);
-    for (int i = 0; i < *rest_letters_size; ++i) {
-        shifted_letters[i] = Cesar::alphabet[i];
-    }
-
     int *shifted_letters_size = new int(ALL_AMOUNT_ALPHABET_LETTERS - *shift);
+
     for (int k = 0; k < *shifted_letters_size; ++k) {
-        rest_letters[k] = Cesar::alphabet[k + *shift];
+        cipher->push_back(Cesar::alphabet[k + *shift]);
+    }
+    for (int i = 0; i < *rest_letters_size; ++i) {
+        cipher->push_back(Cesar::alphabet[i]);
     }
 
-    std::vector<string> cipher;
-
-    for (int j = 0; j < *rest_letters_size ; ++j) {
-        cipher.push_back(rest_letters[j]);
-    }
-    for (int l = 0; l < *shifted_letters_size ; ++l) {
-        cipher.push_back(shifted_letters[l]);
-    }
-
-    for(string n : cipher) {
-        std::cout << n << '\n';
-    }
     delete rest_letters_size;
     delete shifted_letters_size;
     delete[] shifted_letters;
     delete[] rest_letters;
+    delete cipher;
 }
