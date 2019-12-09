@@ -15,7 +15,7 @@ void begin_cesar_encryption() {
     string text;
     int shift;
     cout << "cesar algorithm is starting..." << endl;
-    cout << "enter text: " << endl;
+    cout << "enter text (only english letters): " << endl;
     clear_cin();
     getline(cin , text);
     while(true) {
