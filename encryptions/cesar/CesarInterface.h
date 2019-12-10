@@ -1,5 +1,0 @@
-#include <string>
-
-class CesarInterface {
-
-};

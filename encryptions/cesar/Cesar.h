@@ -10,13 +10,15 @@ public:
 
     ~Cesar();
 
-    void encrypt(void);
+    int encrypt(void);
 
     static std::string alphabet[28];
 private:
     bool is_result_saved(void);
 
     void show_result_menu(void);
+
+    void save_file(void);
 
     std::string *text;
     int *shift;

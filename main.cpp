@@ -1,8 +1,5 @@
-#include <iostream>
-#include <functional>
-#include <vector>
-#include <algorithm>
 
+#include <fstream>
 #include "./menu/Menu.h"
 int main() {
     Menu menu;
